@@ -7,7 +7,7 @@ import os
 from datetime import datetime
 import cv2
 from utils import label_map_util
-from collections import defaultdict
+
 
 
 detection_graph = tf.Graph()
