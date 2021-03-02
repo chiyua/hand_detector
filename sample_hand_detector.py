@@ -1,7 +1,6 @@
 # Utilities for hands detector.
 
 import numpy as np
-import sys
 import tensorflow as tf
 import os
 from datetime import datetime
@@ -11,7 +10,6 @@ from utils import label_map_util
 
 
 detection_graph = tf.Graph()
-sys.path.append("..")
 
 # score threshold for showing bounding boxes.
 _score_thresh = 0.27
